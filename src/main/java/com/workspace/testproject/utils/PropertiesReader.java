@@ -15,6 +15,9 @@ public class PropertiesReader {
     @Value("${selenium.password}")
     private String password;
 
+    public PropertiesReader() {
+    }
+
     public String getRestEndpoint() {
         return restEndpoint;
     }
