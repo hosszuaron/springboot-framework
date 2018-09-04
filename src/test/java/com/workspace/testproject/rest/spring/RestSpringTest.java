@@ -17,7 +17,7 @@ public class RestSpringTest {
     private SpringRequestClient springRequestClient;
 
     @Test
-    public void springRestTest() {
+    public void getRestTest() {
         ResponseEntity<TodosModel> response = springRequestClient.getDummy(TodosModel.class);
         Assert.assertEquals("1", response.getBody().getId());
         Assert.assertEquals(200, response.getStatusCodeValue());
