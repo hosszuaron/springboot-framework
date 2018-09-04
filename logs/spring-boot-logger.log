@@ -272,3 +272,68 @@
 2018-09-04 10:13:04,150 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-2] Closing JPA EntityManagerFactory for persistence unit 'default'
 2018-09-04 10:13:04,152 INFO com.zaxxer.hikari.HikariDataSource [Thread-2] HikariPool-1 - Shutdown initiated...
 2018-09-04 10:13:04,170 INFO com.zaxxer.hikari.HikariDataSource [Thread-2] HikariPool-1 - Shutdown completed.
+2018-09-04 11:24:03,965 INFO org.springframework.boot.StartupInfoLogger [main] Starting DatabaseTest on L-R90HGXQ0 with PID 7688 (started by aron.hosszu in C:\Users\aron.hosszu\Documents\TestProject\testproject)
+2018-09-04 11:24:03,975 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2018-09-04 11:24:04,074 INFO org.springframework.context.support.AbstractApplicationContext [main] Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1807f5a7: startup date [Tue Sep 04 11:24:04 EEST 2018]; root of context hierarchy
+2018-09-04 11:24:08,057 INFO org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor [main] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-09-04 11:24:08,457 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9bfef87e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-04 11:24:09,029 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2018-09-04 11:24:10,090 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2018-09-04 11:24:10,180 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-09-04 11:24:10,235 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-09-04 11:24:10,559 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.2.17.Final}
+2018-09-04 11:24:10,562 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2018-09-04 11:24:10,668 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-09-04 11:24:10,995 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-09-04 11:24:12,178 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-09-04 11:24:13,873 INFO org.springframework.web.servlet.handler.AbstractUrlHandlerMapping [main] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-04 11:24:14,423 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@1807f5a7: startup date [Tue Sep 04 11:24:04 EEST 2018]; root of context hierarchy
+2018-09-04 11:24:14,572 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-09-04 11:24:14,685 INFO org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry [main] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-04 11:24:14,689 INFO org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry [main] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-04 11:24:14,771 INFO org.springframework.web.servlet.handler.AbstractUrlHandlerMapping [main] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-04 11:24:14,772 INFO org.springframework.web.servlet.handler.AbstractUrlHandlerMapping [main] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-04 11:24:15,707 INFO org.springframework.boot.StartupInfoLogger [main] Started DatabaseTest in 13.463 seconds (JVM running for 16.424)
+2018-09-04 11:24:16,302 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2018-09-04 11:24:16,707 INFO org.springframework.context.support.AbstractApplicationContext [Thread-2] Closing org.springframework.web.context.support.GenericWebApplicationContext@1807f5a7: startup date [Tue Sep 04 11:24:04 EEST 2018]; root of context hierarchy
+2018-09-04 11:24:16,711 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-2] Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-09-04 11:24:16,717 INFO com.zaxxer.hikari.HikariDataSource [Thread-2] HikariPool-1 - Shutdown initiated...
+2018-09-04 11:24:16,738 INFO com.zaxxer.hikari.HikariDataSource [Thread-2] HikariPool-1 - Shutdown completed.
+2018-09-04 11:28:46,360 INFO org.springframework.boot.StartupInfoLogger [main] Starting RestJerseyTest on L-R90HGXQ0 with PID 3832 (started by aron.hosszu in C:\Users\aron.hosszu\Documents\TestProject\testproject)
+2018-09-04 11:28:46,365 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2018-09-04 11:28:46,424 INFO org.springframework.context.support.AbstractApplicationContext [main] Refreshing org.springframework.web.context.support.GenericWebApplicationContext@45efd90f: startup date [Tue Sep 04 11:28:46 EEST 2018]; root of context hierarchy
+2018-09-04 11:28:48,868 INFO org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor [main] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-09-04 11:28:49,092 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [main] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f85ea3f3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-04 11:28:49,544 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2018-09-04 11:28:50,626 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2018-09-04 11:28:50,749 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-09-04 11:28:50,807 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-09-04 11:28:51,057 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.2.17.Final}
+2018-09-04 11:28:51,061 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2018-09-04 11:28:51,149 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-09-04 11:28:51,424 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-09-04 11:28:52,865 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-09-04 11:28:55,055 INFO org.springframework.web.servlet.handler.AbstractUrlHandlerMapping [main] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-04 11:28:55,784 INFO org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [main] Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@45efd90f: startup date [Tue Sep 04 11:28:46 EEST 2018]; root of context hierarchy
+2018-09-04 11:28:55,918 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-09-04 11:28:56,037 INFO org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry [main] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-04 11:28:56,041 INFO org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry [main] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-04 11:28:56,183 INFO org.springframework.web.servlet.handler.AbstractUrlHandlerMapping [main] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-04 11:28:56,185 INFO org.springframework.web.servlet.handler.AbstractUrlHandlerMapping [main] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-04 11:28:57,369 INFO org.springframework.boot.StartupInfoLogger [main] Started RestJerseyTest in 11.777 seconds (JVM running for 14.61)
+2018-09-04 11:28:57,873 INFO com.workspace.testproject.rest.jersey.BaseJerseyRequests [main] Sending POST request to: 'https://jsonplaceholder.typicode.com/posts'
+2018-09-04 11:29:00,420 INFO com.workspace.testproject.rest.jersey.BaseJerseyRequests [main] Sending PUT request to: 'https://jsonplaceholder.typicode.com/posts/1'
+2018-09-04 11:29:01,022 INFO com.workspace.testproject.rest.jersey.BaseJerseyRequests [main] Sending GET request to: 'https://jsonplaceholder.typicode.com/todos/1'
+2018-09-04 11:29:01,604 INFO com.workspace.testproject.rest.spring.BaseSpringRequests [main] Sending POST request to: 'https://jsonplaceholder.typicode.com/posts'
+2018-09-04 11:29:02,183 INFO com.workspace.testproject.rest.spring.BaseSpringRequests [main] Sending PUT request to: 'https://jsonplaceholder.typicode.com/posts/1'
+2018-09-04 11:29:02,498 INFO com.workspace.testproject.rest.spring.BaseSpringRequests [main] Sending GET request to: 'https://jsonplaceholder.typicode.com/todos/1'
+2018-09-04 11:29:06,748 INFO org.openqa.selenium.remote.ProtocolHandshake [Forwarding newSession on session null to remote] Detected dialect: OSS
+2018-09-04 11:29:19,842 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [main] HHH000397: Using ASTQueryTranslatorFactory
+2018-09-04 11:29:20,059 INFO org.springframework.context.support.AbstractApplicationContext [Thread-2] Closing org.springframework.web.context.support.GenericWebApplicationContext@45efd90f: startup date [Tue Sep 04 11:28:46 EEST 2018]; root of context hierarchy
+2018-09-04 11:29:20,066 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-2] Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-09-04 11:29:20,069 INFO com.zaxxer.hikari.HikariDataSource [Thread-2] HikariPool-1 - Shutdown initiated...
+2018-09-04 11:29:20,092 INFO com.zaxxer.hikari.HikariDataSource [Thread-2] HikariPool-1 - Shutdown completed.
