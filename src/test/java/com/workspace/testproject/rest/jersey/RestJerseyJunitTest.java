@@ -12,7 +12,7 @@ import javax.ws.rs.core.Response;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class RestJerseyTest {
+public class RestJerseyJunitTest {
 
     @Autowired
     private JerseyRequestClient requestClient;
