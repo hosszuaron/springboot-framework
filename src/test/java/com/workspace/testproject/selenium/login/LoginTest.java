@@ -2,7 +2,6 @@ package com.workspace.testproject.selenium.login;
 
 import com.workspace.testproject.selenium.SeleniumDriver;
 import org.junit.After;
-import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -11,6 +10,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
+
+import static org.junit.Assert.assertEquals;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
@@ -35,6 +36,6 @@ public class LoginTest extends SeleniumDriver {
         loginActions.loginForAllPartners();
 
         wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("a[href='#/usersList'")));
-        Assert.assertEquals(driver.getCurrentUrl(), "https://test.aw.ro:8282/#/home");
+        assertEquals(driver.getCurrentUrl(), "https://test.aw.ro:8282/#/home");
     }
 }

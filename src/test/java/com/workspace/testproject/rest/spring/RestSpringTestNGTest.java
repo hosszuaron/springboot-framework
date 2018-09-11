@@ -1,16 +1,13 @@
 package com.workspace.testproject.rest.spring;
 
-import com.workspace.testproject.TestprojectApplication;
+import com.workspace.testproject.BaseTestNGTest;
 import com.workspace.testproject.rest.model.TodosModel;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.http.ResponseEntity;
-import org.springframework.test.context.testng.AbstractTestNGSpringContextTests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-@SpringBootTest (classes = TestprojectApplication.class)
-public class RestSpringTestNGTest extends AbstractTestNGSpringContextTests {
+public class RestSpringTestNGTest extends BaseTestNGTest {
 
     @Autowired
     private SpringRequestClient springRequestClient;
